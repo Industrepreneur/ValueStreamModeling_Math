@@ -1,0 +1,82 @@
+﻿Build started 10/10/2014 5:23:29 PM.
+     1>Project "C:\Users\greg2\documents\visual studio 2010\Projects\dll2\dll2\dll2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\dll2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Ot /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D MPX386 /D BATCH /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt calc12.cpp
+         calc12.cpp
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(348): warning C4101: 's0' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(360): warning C4101: 's0' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(384): warning C4101: 's1' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(433): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(488): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(531): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\class_model.cpp(629): warning C4101: 's0' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(44): warning C4101: 'partial_2' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(49): warning C4101: 'p2' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(50): warning C4101: 'p3' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(48): warning C4101: 'p1' : unreferenced local variable
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\calc12.cpp(45): warning C4101: 'partial_3' : unreferenced local variable
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\greg2\documents\visual studio 2010\Projects\dll2\Debug\dll2.dll" /INCREMENTAL /NOLOGO /DEF:".\dll2.def" /MANIFEST /ManifestFile:"Debug\dll2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\greg2\documents\visual studio 2010\Projects\dll2\Debug\dll2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\greg2\documents\visual studio 2010\Projects\dll2\Debug\dll2.lib" /MACHINE:X86 /DLL Debug\dll2.res
+         Debug\dll2.dll.embed.manifest.res
+         Debug\Brack2.obj
+         Debug\Brent.obj
+         Debug\calc.obj
+         Debug\calc1.obj
+         Debug\calc10.obj
+         Debug\calc11.obj
+         Debug\calc12.obj
+         Debug\calc2.obj
+         Debug\calc3.obj
+         Debug\calc4.obj
+         Debug\calc5.obj
+         Debug\calc6.obj
+         Debug\calc7.obj
+         Debug\calc8.obj
+         Debug\calc9.obj
+         Debug\class_eq.obj
+         Debug\class_ibom.obj
+         Debug\class_lab.obj
+         Debug\class_model.obj
+         Debug\class_oper.obj
+         Debug\class_part.obj
+         Debug\class_route.obj
+         Debug\data1.obj
+         Debug\dll2.obj
+         Debug\f1dim.obj
+         Debug\io_code.obj
+         Debug\mp_demd.obj
+         Debug\oplst.obj
+         Debug\wused.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\dll2.dll.embed.manifest" /manifest Debug\dll2.dll.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         dll2.vcxproj -> C:\Users\greg2\documents\visual studio 2010\Projects\dll2\Debug\dll2.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\dll2.unsuccessfulbuild".
+         Touching "Debug\dll2.lastbuildstate".
+     1>Done Building Project "C:\Users\greg2\documents\visual studio 2010\Projects\dll2\dll2\dll2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07

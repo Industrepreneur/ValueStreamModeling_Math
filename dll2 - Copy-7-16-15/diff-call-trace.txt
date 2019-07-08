@@ -1,0 +1,14 @@
+order of calls 
+
+form-rout
+calc 11	frprmn
+	calc11	fvalue_ci
+	calc12	dif_ci_2
+	calc11	linmin
+		brack2	mnbrak
+			f1dim 	f1dim
+				calc11	fvalue_ci
+		brent	brentgd
+			f1dim	f1dim
+				calc11	fvalue_ci
+	calc12	dif_ci_2

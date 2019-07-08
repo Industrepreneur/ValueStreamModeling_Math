@@ -1,0 +1,54 @@
+﻿Build started 7/16/2015 4:50:23 PM.
+     1>Project "C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\dll2\dll2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\dll2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\dll2.def" /MANIFEST /ManifestFile:"Release\dll2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.lib" /MACHINE:X86 /DLL Release\dll2.res
+         Release\Brack2.obj
+         Release\Brent.obj
+         Release\calc.obj
+         Release\calc1.obj
+         Release\calc11.obj
+         Release\calc12.obj
+         Release\calc2.obj
+         Release\calc3.obj
+         Release\calc4.obj
+         Release\calc5.obj
+         Release\calc6.obj
+         Release\calc7.obj
+         Release\calc8.obj
+         Release\calc9.obj
+         Release\class_eq.obj
+         Release\class_ibom.obj
+         Release\class_lab.obj
+         Release\class_model.obj
+         Release\class_oper.obj
+         Release\class_part.obj
+         Release\class_route.obj
+         Release\data1.obj
+         Release\dll2.obj
+         Release\f1dim.obj
+         Release\io_code.obj
+         Release\mp_demd.obj
+         Release\oplst.obj
+         Release\wused.obj /MD 
+     1>LINK : warning LNK4044: unrecognized option '/MD'; ignored
+            Creating library C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.lib and object C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.exp
+         Generating code
+     1>c:\users\greg2\documents\visual studio 2010\projects\dll2\dll2\dll2.cpp(724): warning C4700: uninitialized local variable 'i' used
+         Finished generating code
+         dll2.vcxproj -> C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\Release\dll2.dll;#2" /manifest Release\dll2.dll.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\dll2.unsuccessfulbuild".
+         Touching "Release\dll2.lastbuildstate".
+     1>Done Building Project "C:\Users\greg2\Documents\Visual Studio 2010\Projects\dll2\dll2\dll2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.89
