@@ -6,3 +6,4 @@ This repository includes the:
 - The math methods (DLL2)
 - The math Visual Studio project
 - License
+- Industrial version of the desktop software with key
